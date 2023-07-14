@@ -68,7 +68,6 @@ public class Player : MonoBehaviour
                 if (clearCounter != selectedCounter)
                 {
                     SetSelectedCounter(clearCounter);
-                    Debug.Log("Selected counter changed");
                 }
             }
             else

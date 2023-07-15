@@ -686,10 +686,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68561493c9be9ae4d8778efb2ec5f6d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SPEED: 10
-  ROTATE_SPEED: 15
+  moveSpeed: 10
+  rotateSpeed: 15
   gameInput: {fileID: 1176983336}
-  INTERACT_DISTANCE: 2
+  interactDistance: 2
   countersLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -823,6 +823,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1760676751050078520, guid: a2aa10acd15d268449c769bc396bb1a8,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 2597741072141952827, guid: 07ecc628bcca9904ba8f0620c5710094,
+        type: 3}
+    - target: {fileID: 1760676751050078520, guid: a2aa10acd15d268449c769bc396bb1a8,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: c2acdf81b82fa894d928c31ed6af717c,
+        type: 2}
     - target: {fileID: 2815401016212688488, guid: a2aa10acd15d268449c769bc396bb1a8,
         type: 3}
       propertyPath: m_RootOrder
@@ -996,6 +1008,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1760676751050078520, guid: a2aa10acd15d268449c769bc396bb1a8,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: acf94afa40dcc53478f9f08165fdad18,
+        type: 2}
     - target: {fileID: 2815401016212688488, guid: a2aa10acd15d268449c769bc396bb1a8,
         type: 3}
       propertyPath: m_RootOrder
